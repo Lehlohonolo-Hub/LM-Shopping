@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-weight: 400;
+} 
+
+.free{
+    padding: 10px 30px;
+    width: 100%;
+    background: #010f1c;
+    display: flex;
+    
+}
+
+.free .icon{
+    color: #23a7f3;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.free p{
+    margin-left: 10px;
+    color: #f6f6f6;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+} 
+
+.main_header{
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #010f1c;
+    background-color: #ffffff;
+}
+
+.main_header .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main_header .container .logo{
+    padding: 0 20px ;
+}
+
+.main_header .container .logo img{
+    width: 160px;
+}
+
+.main_header .container .search_box{
+  display: flex;
+  justify-content: center;
+  right: -20px;
+  position: relative;
+  width: 100%;
+}
+
+.main_header .container .search_box input{
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 20px;
+    border: none;
+    width: 350px;
+    background-color: #010f1c18;
+}
+
+.main_header .container .search_box button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+    background: #010f1c93;
+    color: #f6f6f6;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    right: 43px;
+}
+
+.main_header .container .search_box button:hover {
+    background: #0989ff;
+    transition: .5s;
+}
+.main_header .container .icon{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.main_header .container .icon .auth button {
+    font-size: 22px;
+    border: none;
+    color: #010f1c;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    margin-right: 20px;
+}
+
+.container .second_icon{
+    display: flex;
+    gap: 12px;
+    position: relative;
+    align-self: center;
+    font-size: 22px;
+    
+}
+
+.container .second_icon a{
+    color: #0989ff;
+}
+
+.main_header .container .icon .account{
+    display: flex;
+    margin-right: 12px;
+}
+
+.main_header .container .icon .account .user_icon{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #010f1c;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.main_header .container .icon .account p{
+    align-items: center;
+    display: flex;
+    font-weight: 200;
+
+}
+
+.header{
+    width: 100%;
+    padding: 20px 30px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.226) 0px 5px 15px;
+}
+
+.header .container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.header .container .nav ul{
+    display: flex;
+    padding: 10px; 
+}
+
+.header .container ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header .container ul li .link{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 00.5s;
+    font-weight: 400;
+    
+}
+
+.header .container ul li .link:hover{
+    color: #0989ff;
+}
+
+
+
+.block-container{
+    display: none;
+}
+
+
+/*
+ ##### MEDIA QUERIES STARTS HERE ####
+*/
+
+@media (max-width:1027px){
+    .main_header .container .search_box input{
+        width: 100%;
+    }
+}
+
+@media (max-width:425px){
+    .free {
+        justify-content: center;
+        
+    }
+
+    .free .icon{
+        font-size: 20px;
+        margin-top: 5px;
+        
+    }
+
+    .free p{
+        text-align: center;
+        font-size: 10.5px;
+    }
+
+    .main_header{
+        padding: 10px;
+    }
+    .main_header .container{
+        justify-content: center;
+    } 
+
+    .main_header .container .logo{
+        width: 180px;
+        padding: 8px;
+        justify-self: center;
+    }
+
+    .main_header .container .logo img{
+        width: 100px;
+    }
+    
+    .main_header .container .search_box input{
+        display: flex;
+        width: 100%;
+    }
+
+    .main_header .container .icon .account p{
+        font-size: 12px;
+    }
+
+    .main_header .container .icon .account .user_icon{
+        font-size: 14px;
+    }
+
+    .main_header .container .icon .auth button{
+        font-size: 18px;
+    }
+
+
+    .main_header .container .icon{
+        justify-content: end;
+        
+    }
+
+    .main_header .container .icon .second_icon{
+        position: relative;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .fixed-bottom{
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        justify-content: space-evenly;
+        background-color: #ffffff;
+        align-items: center;
+        border-top: 1.5px solid #9a9a9a60;
+        z-index: 9;
+        
+    }
+
+    .block-container{
+        display: flex;
+        width: 100%;
+
+    }
+
+    .block-container .block-nav{
+        padding: 8px;
+        width: 100%;
+    }
+
+    .fixed-bottom .block-container .block-nav ul{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    .fixed-bottom .block-container .block-nav ul li{
+        font-size: 24px;
+        display: flex;
+        
+    }
+
+    .fixed-bottom .block-container .block-nav ul li .link{
+        padding: 10px;
+        color: #0989ff;
+        font-weight: 800;
+    }
+
+
+}
+
+@media (max-width:320px){
+    .main_header .container .search_box input{
+        width: 170px;
+        overflow: hidden;
+
+    }
+
+}
