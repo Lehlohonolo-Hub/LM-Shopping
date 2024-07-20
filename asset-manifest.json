@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Lehlohonolo-Hub/LM-Shopping.git/static/css/main.b8ab2036.css",
-    "main.js": "/Lehlohonolo-Hub/LM-Shopping.git/static/js/main.04d42ea0.js",
-    "static/js/453.470358f0.chunk.js": "/Lehlohonolo-Hub/LM-Shopping.git/static/js/453.470358f0.chunk.js",
-    "static/media/xbox.png": "/Lehlohonolo-Hub/LM-Shopping.git/static/media/xbox.5879c8d46cbda92e4dd9.png",
-    "index.html": "/Lehlohonolo-Hub/LM-Shopping.git/index.html",
-    "main.b8ab2036.css.map": "/Lehlohonolo-Hub/LM-Shopping.git/static/css/main.b8ab2036.css.map",
-    "main.04d42ea0.js.map": "/Lehlohonolo-Hub/LM-Shopping.git/static/js/main.04d42ea0.js.map",
-    "453.470358f0.chunk.js.map": "/Lehlohonolo-Hub/LM-Shopping.git/static/js/453.470358f0.chunk.js.map"
+    "main.css": "/LM-Shopping/static/css/main.b8ab2036.css",
+    "main.js": "/LM-Shopping/static/js/main.41f5a6d4.js",
+    "static/js/453.470358f0.chunk.js": "/LM-Shopping/static/js/453.470358f0.chunk.js",
+    "static/media/xbox.png": "/LM-Shopping/static/media/xbox.5879c8d46cbda92e4dd9.png",
+    "index.html": "/LM-Shopping/index.html",
+    "main.b8ab2036.css.map": "/LM-Shopping/static/css/main.b8ab2036.css.map",
+    "main.41f5a6d4.js.map": "/LM-Shopping/static/js/main.41f5a6d4.js.map",
+    "453.470358f0.chunk.js.map": "/LM-Shopping/static/js/453.470358f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8ab2036.css",
-    "static/js/main.04d42ea0.js"
+    "static/js/main.41f5a6d4.js"
   ]
 }
